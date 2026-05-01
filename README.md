@@ -17,11 +17,6 @@ By leveraging **EfficientNet-V2-S**, the model is trained to accurately identify
 - **Experiment Tracking**: Fully integrated with **MLflow** to automatically log parameters, metrics (Train/Val Loss & Accuracy), and model artifacts.
 - **Modern Data Augmentation**: Uses `torchvision.transforms.v2` for robust image preprocessing (Random Flip, Rotation, and Resized Cropping).
 
-## 📊 Results & Performance
-The model achieves exceptional accuracy across all 12 classes. The confusion matrix on the test set demonstrates highly solid diagonal predictions with minimal misclassifications.
-*(Kamu bisa upload gambar confusion_matrix.png kamu ke github, lalu tambahkan gambarnya di sini)*
-<!-- ![Confusion Matrix](link_gambar_confusion_matrix_kamu_di_github.png) -->
-
 ## 🚀 Tech Stack
 - **Framework:** PyTorch & Torchvision
 - **Tracking & MLOps:** MLflow
