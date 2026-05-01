@@ -1,0 +1,19 @@
+# Mengabaikan folder dataset
+data/
+data/raw/
+data/processed/
+
+# Mengabaikan file model yang besar
+models/
+*.pth
+
+# Mengabaikan log MLflow (karena ukurannya bisa bengkak)
+mlruns/
+mlflow.db
+
+# Mengabaikan cache bawaan Python
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+venv/
+env/
